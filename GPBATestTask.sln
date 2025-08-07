@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{2C1700B2-56E0-4BC8-A478-C747A9EE56EB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{8FDCEE2A-CF08-4750-9140-A27BB865E69A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{4B029049-3570-46A6-8BA4-B43D36BD372D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPBATestTask.Domain", "GPBATestTask.Domain\GPBATestTask.Domain.csproj", "{A9285511-3ABE-481E-B7D6-9298F436BBAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPBATestTask.Application", "GPBATestTask.Application\GPBATestTask.Application.csproj", "{0E429F1B-0F53-467D-8C55-849B018A08AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPBATestTask.Api", "GPBATestTask.Api\GPBATestTask.Api.csproj", "{2C670375-FD0C-47CF-910E-4FC0C7F13E27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GPBATestTask.Persistence", "GPBATestTask.Persistence\GPBATestTask.Persistence.csproj", "{E5E9960E-5F9A-43A3-B266-7A985D98249B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{A9285511-3ABE-481E-B7D6-9298F436BBAD} = {8FDCEE2A-CF08-4750-9140-A27BB865E69A}
+		{0E429F1B-0F53-467D-8C55-849B018A08AC} = {8FDCEE2A-CF08-4750-9140-A27BB865E69A}
+		{2C670375-FD0C-47CF-910E-4FC0C7F13E27} = {2C1700B2-56E0-4BC8-A478-C747A9EE56EB}
+		{E5E9960E-5F9A-43A3-B266-7A985D98249B} = {4B029049-3570-46A6-8BA4-B43D36BD372D}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A9285511-3ABE-481E-B7D6-9298F436BBAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9285511-3ABE-481E-B7D6-9298F436BBAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9285511-3ABE-481E-B7D6-9298F436BBAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9285511-3ABE-481E-B7D6-9298F436BBAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E429F1B-0F53-467D-8C55-849B018A08AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E429F1B-0F53-467D-8C55-849B018A08AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E429F1B-0F53-467D-8C55-849B018A08AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E429F1B-0F53-467D-8C55-849B018A08AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C670375-FD0C-47CF-910E-4FC0C7F13E27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C670375-FD0C-47CF-910E-4FC0C7F13E27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C670375-FD0C-47CF-910E-4FC0C7F13E27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C670375-FD0C-47CF-910E-4FC0C7F13E27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5E9960E-5F9A-43A3-B266-7A985D98249B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5E9960E-5F9A-43A3-B266-7A985D98249B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5E9960E-5F9A-43A3-B266-7A985D98249B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5E9960E-5F9A-43A3-B266-7A985D98249B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
